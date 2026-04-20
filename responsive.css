@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    /* Menu au dessus ou en dessous du titre */
+    gap: 15px;
+    padding: 20px;
+  }
+
+  #hero {
+    flex-direction: column;
+    /* Image au dessus du texte */
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  #hero img {
+    width: 180px;
+    height: 180px;
+  }
+
+  #hero h2 {
+    font-size: 1.8rem;
+  }
+
+  .skills-container,
+  .projects-container {
+    flex-direction: column;
+    /* On empile les cartes */
+  }
+
+  .skill-card,
+  .project-card {
+    width: 100%;
+    /* Les cartes prennent toute la largeur */
+  }
+
+  #contact ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Petits mobiles (en dessous de 480px) */
+@media (max-width: 480px) {
+  nav ul {
+    gap: 10px;
+    font-size: 0.9rem;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
+  }
+}
